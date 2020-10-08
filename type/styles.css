@@ -1,0 +1,88 @@
+/* Type */
+
+body {
+	background-color: #bbd2c8;
+	color: black;
+	line-height: 1.3;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.new-color {
+	color: #ff0080;
+	font-size: 2em;
+    font-weight: 800;
+    filter: drop-shadow(5px 3px 15px yellow);
+    -webkit-text-emphasis: triangle;
+}
+
+.other-font {
+	font-family: 'Teko', sans-serif;
+	display: block;
+    font-size: 15em;
+    max-width: 15em;
+    margin-block-start: -1em;
+    margin-block-end: 0px;
+    margin-left: 1.9em;
+    font-weight: bold;
+    position: initial;
+    transform: rotate(-90deg);
+    color: #b33838;
+    line-height: 2em;
+}
+
+.hmm{
+	font-weight: 700;
+	color:pink;
+}
+
+.cool{
+	display: block;
+    max-width: 5em;
+    margin-left: 1em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    line-height: 5pt;
+}
+
+.gaga{
+	color:orange;
+}
+
+.mono{
+	color: white;
+    text-align: center;
+    font-size: 2em;
+    line-height: 50pt;
+}
+
+.meme{
+	display: block;
+    max-width: 18em;
+    margin-left: 32em;
+    margin-block-start: 10em;
+    margin-block-end: 0em;
+    color: #E91E63;
+    text-align: left;
+    font-size: 1em;
+    line-height: 80pt;    
+}
+
+.jojo{
+	    display: block;
+    font-size: 2em;
+    max-width: 15em;
+    margin-block-start: -1em;
+    margin-block-end: 0px;
+    margin-left: 1.9em;
+    font-weight: bold;
+    position: absolute;
+    transform: rotate(-90deg);
+    color: black;
+    line-height: 2em;
+
+}
