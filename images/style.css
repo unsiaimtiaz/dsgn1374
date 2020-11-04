@@ -5,11 +5,47 @@
 }
 
 body {
-	background-color: blue;
+	background-image: url(img/paris.jpg);
 	color: black;
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	line-height: 1.4;
 	font-size: 16px;
 	margin: 0.25em;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+img{
+	max-width: 100%;
+	padding: 15px;
+    text-align: center;
+}
+
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item{
+	width:50%;
+}
+
+h1{
+	text-align: center;
+	background-color: white;
+	color:black;
+	text-shadow: 2px 2px;
+	border-style: double;
+}
+h2{
+	background-color: white;
+	color: black;
+	border-style: double;
+}
+
+p{
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
 }
