@@ -1,0 +1,52 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("img/notepad.jpg");
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.container{
+	    display: grid;
+        grid-row-gap: 30px;
+        align-content: center;
+        padding-left: 100px;
+        text-align: justify;
+        text-align: center;
+        border: 100px black;
+        outline-style: solid;
+}
+
+h1{
+	  border: 2px solid black;
+      outline-style: solid;
+      outline-color: black;
+}
+
+h2{
+	text-align: left;
+    font-size: 15px;
+}
+
+.q{
+	font-family: Comic Sans MS,Arial, Helvetica;
+	color:red;
+
+}
+
+.a{
+	font-family: Comic Sans MS,Arial, Helvetica;
+	font-size: 20px;
+
+}
